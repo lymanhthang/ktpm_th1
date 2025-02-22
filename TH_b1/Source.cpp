@@ -13,10 +13,6 @@ bool isPrime(int n) {
 	return true;
 }
 
-bool isLeapYear(int year) {
-	return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
-}
-
 void displayMenu() {
 	cout << "\n=== MENU ===" << endl;
 	cout << "1. Kiem tra so nguyen to" << endl;
