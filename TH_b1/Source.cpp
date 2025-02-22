@@ -50,7 +50,23 @@ int main() {
 			}
 			break;
 		}
-		
+		case 2: {
+			int year;
+			cout << "Nhap mot nam: ";
+			cin >> year;
+			if (year <= 0) {
+				cout << "Vui long nhap nam duong lich hop le!" << endl;
+			}
+			else {
+				if (isLeapYear(year)) {
+					cout << year << " la nam nhuan" << endl;
+				}
+				else {
+					cout << year << " khong phai la nam nhuan" << endl;
+				}
+			}
+			break;
+		}
 		case 0:
 			//cout << "Tam biet!" << endl;
 			break;
